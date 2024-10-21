@@ -1,0 +1,93 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+
+  article {
+    margin-bottom: 1.5em;
+
+    ul {
+      strong {
+        text-decoration: underline;
+      }
+
+      &.offers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1em;
+        flex-wrap: wrap;
+        padding: 0px 10%;
+
+        li {
+          width: 250px;
+          min-height: fit-content;
+          height: 175px;
+          display: flex;
+          flex-direction: column;
+          justify-content: top;
+          align-items: center;
+
+          img {
+            width: 100px;
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+  }
+
+  // padding: 20px;
+  // font-family: 'Arial', sans-serif;
+  // color: #333;
+  // line-height: 1.6;
+
+  // h1, h2 {
+  //   color: #2c3e50;
+  //   margin-bottom: 15px;
+  // }
+
+  // h1 {
+  //   font-size: 2.5rem;
+  //   text-align: center;
+  //   margin-bottom: 30px;
+  // }
+
+  // h2 {
+  //   font-size: 1.8rem;
+  //   margin-top: 30px;
+  // }
+
+  // p {
+  //   font-size: 1.1rem;
+  //   margin-bottom: 20px;
+  // }
+
+  // ul {
+  //   margin-left: 20px;
+  //   margin-bottom: 30px;
+
+  //   li {
+  //     margin-bottom: 10px;
+
+  //     strong {
+  //       color: #b97129;
+  //     }
+  //   }
+  // }
+
+  // /* עיצוב לכפתור או טקסט נוסף */
+  // .cta-button {
+  //   display: inline-block;
+  //   padding: 10px 20px;
+  //   background-color: #2980b9;
+  //   color: #fff;
+  //   border-radius: 5px;
+  //   text-decoration: none;
+  //   font-size: 1rem;
+  //   transition: background-color 0.3s;
+
+  //   &:hover {
+  //     background-color: #1c5d85;
+  //   }
+  // }
+}

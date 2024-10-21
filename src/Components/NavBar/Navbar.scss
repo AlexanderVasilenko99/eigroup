@@ -1,0 +1,132 @@
+.Navbar {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    width: 100%;
+    font-size: .8rem;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul.outer-ul {
+        width: 100%;
+        margin: 0px;
+        background-color: var(--secondary-color);
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        transition: 300ms;
+
+        li {
+            margin-bottom: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 300ms;
+
+            &.trigger {
+                display: none;
+            }
+
+
+            &.logo {
+                height: 100%;
+                order: 1;
+
+                img {
+                    width: 60px;
+                    height: 65px;
+                }
+            }
+
+            a {
+                height: 100%;
+                width: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--secondary-color);
+                color: var(--background-color);
+                text-decoration: none;
+                padding: 0px 16px;
+                transition: 300ms;
+                font-size: 2em;
+
+                &:hover {
+                    background-color: var(--primary-color);
+                    color: var(--background-color);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    ul.inner-ul {
+        margin: 0;
+        height: 100%;
+
+        li {
+            height: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 769px) {
+        ul.outer-ul {
+            display: block;
+
+            li {
+                margin-bottom: 0;
+                list-style: none;
+                display: inline-block;
+
+
+                &.trigger {
+                    display: inline-block;
+                    height: 65px;
+                    margin-left: auto;
+                    background-color: transparent;
+
+                    a {
+                        img {
+                            background-color: transparent;
+                            height: 40px;
+                        }
+                    }
+                }
+
+                &.logo {
+                    float: left;
+                }
+            }
+
+            .li-inner-ul {
+                display: none;
+
+                ul {
+                    transition: 300ms;
+
+                    li {
+                        transition: 300ms;
+                        width: 100%;
+                    }
+                }
+
+                &.is-open {
+                    display: block;
+                    width: 100%;
+
+                    a {
+                        position: relative;
+                        z-index: 999;
+                        height: 65px;
+                        font-size: 3em;
+                        justify-content: flex-start;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
