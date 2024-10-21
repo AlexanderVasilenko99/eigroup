@@ -3,6 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import './Navbar.scss';
 import logo from "../../Assets/images/logo-page.jpeg"
 import hamburgerMenu from "../../Assets/images/hamburger-menu.png"
+import LangSwitcher from './LangSwitcher/LangSwitcher';
 
 const Navbar: React.FC = () => {
 
@@ -37,6 +38,7 @@ const Navbar: React.FC = () => {
                   e.preventDefault();
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
                 }}>צור קשר</a>
+                <LangSwitcher />
             </li>
           </ul>
         </li>

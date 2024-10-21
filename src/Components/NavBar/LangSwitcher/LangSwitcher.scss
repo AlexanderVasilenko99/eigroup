@@ -1,0 +1,14 @@
+nav img {
+    background-color: var(--secondary-color);
+    &.country-image{
+        margin-right: 5px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.LangSwitcher {
+    height: 20px;
+    font-size: 2em;
+}
