@@ -1,22 +1,24 @@
 import React, { useState } from 'react';
 import './Contact.scss';
 import { useForm } from '@formspree/react';
+import { useTranslation } from 'react-i18next';
 
 
 const ContactForm: React.FC = () => {
 
   const [state, handleSubmit] = useForm("xxxxxx"); //xkgnnbgw
+  const { t } = useTranslation();
 
   if (state.succeeded) {
     return <form className='form'>
-      <h2>צרו קשר</h2>
-      <p>המידע התקבל אצלנו, בקרוב נהיה בקשר!</p>;
+      <h2>{t('צרו קשר')}</h2>
+      <p>{t('המידע התקבל אצלנו, בקרוב נהיה בקשר!')}</p>
     </form>
   }
 
   return (
     <form onSubmit={handleSubmit} className='form' id='contact-us'>
-      <h2>צרו קשר</h2>
+      <h2>{t('צרו קשר')}</h2>
       <div className="inputs-container">
         <input
           required
@@ -48,7 +50,7 @@ const ContactForm: React.FC = () => {
       </div>
 
       <button type="submit" disabled={state.submitting}>
-        שלח
+        {t('שלח')}
       </button>
     </form>
   );
