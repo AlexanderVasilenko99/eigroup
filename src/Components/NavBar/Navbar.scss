@@ -32,12 +32,14 @@
 
 
             &.logo {
+                background-color: var(--secondary-color);
                 height: 100%;
                 order: 1;
 
                 img {
                     width: 60px;
                     height: 65px;
+                    margin-left: 16px;
                 }
             }
 

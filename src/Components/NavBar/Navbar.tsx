@@ -1,10 +1,9 @@
-import React, { useRef, useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
-import './Navbar.scss';
-import logo from "../../Assets/images/logo-page.jpeg"
-import hamburgerMenu from "../../Assets/images/hamburger-menu.png"
-import LangSwitcher from './LangSwitcher/LangSwitcher';
+import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
+import hamburgerMenu from "../../Assets/images/hamburger-menu.png";
+import logo from "../../Assets/images/logo-blue-background-white-text.png";
+import LangSwitcher from './LangSwitcher/LangSwitcher';
+import './Navbar.scss';
 
 
 const Navbar: React.FC = () => {
@@ -13,7 +12,6 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="Navbar">
-      <></>
       <ul className='outer-ul'>
 
         <li className="trigger" onClick={() => setIsOpen(!isOpen)}>
@@ -30,20 +28,18 @@ const Navbar: React.FC = () => {
               <a onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('advantages').scrollIntoView({ behavior: "smooth" })
-              }}>יתרונות</a>
+              }}>{t('יתרונות')}</a>
               <a onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('who-are-we').scrollIntoView({ behavior: "smooth" })
-              }}>מי אנחנו</a>
+              }}>{t('מי אנחנו')}</a>
               <a
                 onClick={(e) => {
                   e.preventDefault();
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
-                }}>צור קשר</a>
+                }}>{t('צור קשר')}</a>
               <a>{t('טסט')}</a>
-              {/* <a> */}
-                <LangSwitcher />
-              {/* </a> */}
+              <LangSwitcher />
             </li>
           </ul>
         </li>
