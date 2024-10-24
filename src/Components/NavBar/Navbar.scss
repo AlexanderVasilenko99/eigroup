@@ -111,6 +111,14 @@
                     li {
                         transition: 300ms;
                         width: 100%;
+                        position: relative;
+
+                        img {
+                            padding: 0px 10px 10px;
+                        }
+                        select {
+                            margin: 0px 10px 10px;
+                        }
                     }
                 }
 

@@ -41,7 +41,9 @@ const Navbar: React.FC = () => {
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
                 }}>צור קשר</a>
               <a>{t('טסט')}</a>
-              <LangSwitcher />
+              {/* <a> */}
+                <LangSwitcher />
+              {/* </a> */}
             </li>
           </ul>
         </li>
