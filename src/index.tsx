@@ -1,21 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.scss';
-import ServicesList from './Components/Services/ServicesList';
-import TestimonialModel from './Models/Testimonial';
-import MaintenanceService from './Models/MaintenanceService';
-import Testimonial from './Components/TestimonialList/Testimonial';
-import Navbar from './Components/NavBar/Navbar';
+import AboutSection from '../src/Components/AboutSection/AboutSection';
 import ContactForm from './Components/ContactsForm/Contact';
-import AboutSection from '../src/Components/AboutSection/AboutSection'
-import logo from "../../Assets/images/logo.jpeg";
+import Navbar from './Components/NavBar/Navbar';
+import './index.scss';
 
 import i18n from 'i18next';
+import languageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
-import languageDetector from 'i18next-browser-languagedetector'
-import translationUS from './Languages/US/us.json';
 import translationFR from './Languages/FR/fr.json';
 import translationRU from './Languages/RU/ru.json';
+import translationUS from './Languages/US/us.json';
+import Footer from './Components/Footer/Footer';
 
 
 const root = ReactDOM.createRoot(
@@ -51,9 +47,9 @@ i18n
       //   }
       // }
 
-      US: {translation: translationUS},
-      FR: {translation: translationFR},
-      RU: {translation: translationRU},
+      US: { translation: translationUS },
+      FR: { translation: translationFR },
+      RU: { translation: translationRU },
     }
   });
 
@@ -61,16 +57,11 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <div className="main-content">
-      {/* <ServicesList services={services} />
-    <Testimonial testimonials={testimonials} /> */}
       <AboutSection />
     </div>
     <ContactForm />
-    <div>
-      לינקים?
-    </div>
     <footer>
-      זכויות יוצרים וקרדיט לנו
+      <Footer />
     </footer>
   </React.StrictMode>
 );
