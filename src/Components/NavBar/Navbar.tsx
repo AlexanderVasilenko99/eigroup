@@ -4,9 +4,11 @@ import './Navbar.scss';
 import logo from "../../Assets/images/logo-page.jpeg"
 import hamburgerMenu from "../../Assets/images/hamburger-menu.png"
 import LangSwitcher from './LangSwitcher/LangSwitcher';
+import { useTranslation } from "react-i18next";
+
 
 const Navbar: React.FC = () => {
-
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -38,7 +40,8 @@ const Navbar: React.FC = () => {
                   e.preventDefault();
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
                 }}>צור קשר</a>
-                <LangSwitcher />
+              <a>{t('טסט')}</a>
+              <LangSwitcher />
             </li>
           </ul>
         </li>

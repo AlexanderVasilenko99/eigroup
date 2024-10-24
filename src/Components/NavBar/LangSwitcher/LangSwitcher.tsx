@@ -21,12 +21,18 @@ const LangSwitcher: React.FC = () => {
       {!isOpen && <img className='country-image' src={`https://flagsapi.com/${lang}/shiny/32.png`} alt='language-image' onClick={handleClick} />}
       {isOpen &&
         <select className="LangSwitcher"
+          defaultValue={lang}
           onChange={(e) => {
-            setLang(e.target.value);
+
+            let lng = e.target.value;
+
+            setLang(lng);
+            i18n.changeLanguage(lng);
             handleClick();
           }}>
-          <option disabled selected>Language</option>
-          <option value="US">English</option>
+          {/* <option disabled>Language</option> */}
+          {/* disabled={lang==="US"} */}
+          <option value="US" >English</option>
           <option value="IL">עברית</option>
           <option value="FR">Français</option>
           <option value="RU">Русский </option>

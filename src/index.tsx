@@ -10,45 +10,52 @@ import ContactForm from './Components/ContactsForm/Contact';
 import AboutSection from '../src/Components/AboutSection/AboutSection'
 import logo from "../../Assets/images/logo.jpeg";
 
-const services: MaintenanceService[] = [
-  {
-    id: 1,
-    title: 'Plumbing',
-    description: 'Fix leaks, install new faucets, and more.',
-    price: 120,
-    duration: '2 hours',
-  },
-  {
-    id: 2,
-    title: 'Electrical',
-    description: 'Electrical repairs and new installations.',
-    price: 150,
-    duration: '3 hours',
-  },
-];
-
-const testimonials: TestimonialModel[] = [
-  {
-    id: 1,
-    customerName: 'John Doe',
-    feedback: 'Excellent service! Highly recommend.',
-    rating: 5,
-    date: '2024-10-01',
-  },
-  {
-    id: 2,
-    customerName: 'Jane Smith',
-    feedback: 'Very professional and quick!',
-    rating: 4,
-    date: '2024-09-20',
-  },
-];
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import languageDetector from 'i18next-browser-languagedetector'
+import translationUS from './Languages/US/us.json';
+import translationFR from './Languages/FR/fr.json';
+import translationRU from './Languages/RU/ru.json';
 
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 document.title = "E.I Group";
+
+i18n
+  .use(initReactI18next)
+  .use(languageDetector)
+  .init({
+    lng: 'IL',
+    debug: true,
+    fallbackLng: 'IL',
+    interpolation: {
+      escapeValue: false
+    },
+    resources: {
+
+      // US: {
+      //   translation: {
+      //     טסט: "tets"
+      //   }
+      // },
+      // FR: {
+      //   translation: {
+      //     טסט: "la testeaux"
+      //   }
+      // },
+      // RU: {
+      //   translation: {
+      //     טסט: "тест сука"
+      //   }
+      // }
+
+      US: {translation: translationUS},
+      FR: {translation: translationFR},
+      RU: {translation: translationRU},
+    }
+  });
 
 root.render(
   <React.StrictMode>
