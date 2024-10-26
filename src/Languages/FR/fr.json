@@ -1,4 +1,49 @@
 {
     "******************************************************": "NAVBAR-CONTENT",
-    "טסט": "la testeaux"
+    "טסט": "la testeaux",
+    "יתרונות": "Avantages",
+    "מי אנחנו": "Qui sommes-nous",
+    "צור קשר": "Contactez-nous",
+    "------------------------------------------------------": "MAIN-CONTENT",
+
+
+    
+    "אחזקת דירות - למה זה חשוב?": "Entretien immobilier - Pourquoi est-ce important ?",
+    "אחזקת דירות היא תהליך מתמשך וחיוני לשמירה על ערך הנכס שלך ועל איכות החיים בו. נכס שאינו מתוחזק כראוי עלול לגרום לבעיות רבות כגון נזקים מבניים, בעיות בריאותיות, והוצאות בלתי צפויות לתיקונים. תחזוקה נכונה תסייע להימנע מבעיות אלו, להבטיח שהדירה תישאר במצב מצוין לאורך זמן, וכן לשמור על ערכה בשוק הנדלן": "L'entretien immobilier est un processus continu et essentiel pour préserver la valeur de votre bien et la qualité de vie qu'il offre. Un bien mal entretenu peut entraîner de nombreux problèmes tels que des dommages structurels, des problèmes de santé et des coûts de réparation imprévus. Un entretien adéquat aide à éviter ces problèmes, garantit que l'appartement reste en excellent état au fil du temps et maintient sa valeur sur le marché immobilier.",
+    "היתרונות של אחזקת דירות מקצועית": "Les avantages d'un entretien immobilier professionnel",
+    "פנייה לשירותי תחזוקה מקצועיים מבטיחה שהדירה שלך תטופל על ידי אנשי מקצוע מיומנים, עם ניסיון וידע בטיפול בבעיות נפוצות ולא צפויות. מעבר לכך, אנשי תחזוקה מקצועיים מביאים איתם ציוד מתקדם, חומרי גלם איכותיים ויכולים להציע פתרונות ארוכי טווח ולא זמניים.": "Recourir à des services d'entretien professionnels garantit que votre bien sera pris en charge par des professionnels qualifiés, ayant de l'expérience et des connaissances dans le traitement des problèmes courants et inattendus. De plus, le personnel d'entretien professionnel apporte un équipement avancé, des matériaux de haute qualité et peut proposer des solutions durables, et non temporaires.",
+    "מי אנחנו?": "Qui sommes-nous ?",
+    "אנו מציעים שירותי גבייה עבור תחומים כמו תחזוקת מעליות, חשמל, וביטוחי צד ג' הנדרשים. בנוסף, אנו מספקים ליווי משפטי לטיפול בסרבני תשלום בעזרת עורכי דין מנוסים. באמצעות ניהול מקצועי ומסודר של תשלומים שוטפים, שליחת תזכורות ומכתבי התראה, תוכלו לחסוך זמן יקר בטיפול בנושאים אלו ולהקטין את הסיכון לסכסוכים עם סרבני תשלום.": "Nous offrons des services de recouvrement pour des domaines tels que l'entretien des ascenseurs, l'électricité et les assurances de tiers requises. De plus, nous fournissons un accompagnement juridique pour gérer les locataires non payants avec des avocats expérimentés. En gérant professionnellement les paiements réguliers, en envoyant des rappels et en émettant des lettres d'avertissement, vous pouvez gagner un temps précieux dans le traitement de ces questions et réduire le risque de conflits avec des locataires non payants.",
+    "מה כוללת תחזוקת דירות?": "Que comprend l'entretien immobilier ?",
+    "תחזוקת דירות כוללת מגוון רחב של שירותים, שכל אחד מהם תורם לשמירה על בטיחות, נוחות ואסתטיקה בדירה. אלו כוללים:": "L'entretien immobilier comprend une large gamme de services, chacun contribuant à la sécurité, au confort et à l'esthétique de la propriété. Ceux-ci incluent :",
+    "תחזוקה שוטפת": "Entretien régulier",
+    "תחזוקה שוטפת כוללת פעולות קטנות אך חשובות כמו בדיקת מערכות החשמל, תיקוני צבע וטיפול ברטיבות. תחזוקה כזו תסייע במניעת נזקים גדולים יותר בעתיד.": "L'entretien régulier comprend de petites actions essentielles telles que la vérification des systèmes électriques, les réparations de peinture et le contrôle de l'humidité. Un tel entretien peut aider à prévenir des dommages plus importants à l'avenir.",
+    "תיקוני אינסטלציה": "Réparations de plomberie",
+    "בעיות אינסטלציה כמו נזילות, סתימות והצפות הן מהבעיות הנפוצות ביותר בדירות. תחזוקה נכונה תסייע לזהות בעיות אלו בזמן ולפתור אותן לפני שהן מחמירות.": "Les problèmes de plomberie comme les fuites, les obstructions et les inondations sont parmi les problèmes les plus fréquents dans les propriétés. Un entretien approprié aide à identifier ces problèmes tôt et à les résoudre avant qu'ils ne s'aggravent.",
+    "שיפוצי פנים": "Rénovations intérieures",
+    "שיפוצים חלקיים או מלאים של הדירה יכולים לשדרג משמעותית את איכות החיים בה ולהעלות את ערכה. שיפוצים כוללים החלפת ריצוף, שדרוג המטבח, שיפוץ חדרי האמבטיה ועוד.": "Les rénovations partielles ou complètes de la propriété peuvent considérablement améliorer la qualité de vie et augmenter sa valeur. Les rénovations comprennent le remplacement du revêtement de sol, la mise à niveau des cuisines, la rénovation des salles de bains, etc.",
+    "עבודות חשמל": "Travaux électriques",
+    "מערכת החשמל היא אחת המערכות הקריטיות בכל דירה. תחזוקה שוטפת כוללת בדיקות תקופתיות, טיפול בתקלות והחלפת מערכות ישנות במערכות מודרניות ובטוחות יותר.": "Le système électrique est l'un des systèmes les plus critiques de toute propriété. L'entretien régulier comprend des vérifications périodiques, la résolution de problèmes et le remplacement des anciens systèmes par des alternatives modernes et plus sûres.",
+    "תחזוקת גינה": "Entretien de jardin",
+    "אם הדירה כוללת מרפסת או גינה, חשוב לשמור עליה מטופחת. תחזוקת גינה כוללת גיזום, השקיה, טיפול במדשאות והדברה בעת הצורך.": "Si la propriété comprend un balcon ou un jardin, il est essentiel de le maintenir en bon état. L'entretien du jardin comprend la taille, l'arrosage, l'entretien des pelouses et le contrôle des nuisibles si nécessaire.",
+    "שירותים שאנו מציעים": "Services que nous offrons",
+    "תיקוני אינסטלציה ואיתור נזילות": "Réparations de plomberie et détection des fuites",
+    "עבודות חשמל ושדרוג מערכות": "Travaux électriques et mises à niveau des systèmes",
+    "שיפוצים כלליים, כולל מטבחים וחדרי אמבטיה": "Rénovations générales, y compris cuisines et salles de bains",
+    "תחזוקה שוטפת וניקוי מרזבים": "Entretien régulier et nettoyage des gouttières",
+    "תחזוקת גינות ומרפסות": "Entretien des jardins et des balcons",
+    "שירותי ניקיון, וסידור לפני כניסה לדירה": "Services de nettoyage et préparation avant l'emménagement",
+    "צוות המומחים שלנו זמין 24/7 לתת שירות מהיר, מקצועי ואמין. אם אתם מעוניינים להבטיח שהדירה שלכם תישאר במצב מצוין לאורך זמן, פנו אלינו עוד היום. נשמח לספק ייעוץ מקצועי, תיאום שירותי תחזוקה והצעת מחיר מותאמת אישית לצרכים שלכם.": "Notre équipe d'experts est disponible 24h/24 et 7j/7 pour fournir un service rapide, professionnel et fiable. Si vous souhaitez garantir que votre propriété reste en excellent état au fil du temps, contactez-nous aujourd'hui. Nous serons heureux de vous fournir des conseils professionnels, de coordonner les services d'entretien et d'offrir un devis personnalisé pour répondre à vos besoins.",
+    "למה לבחור בנו?": "Pourquoi choisir notre service ?",
+    "אנו מציעים ניסיון רב שנים בתחום תחזוקת הדירות, שירות לקוחות אדיב, ועבודה עם כלים וחומרים באיכות הגבוהה ביותר. בין אם אתם זקוקים לתחזוקה שוטפת או לשיפוצים נרחבים, אנחנו כאן כדי להעניק לכם שירות ברמה הגבוהה ביותר.": "Nous offrons des années d'expérience dans l'entretien immobilier, un service client courtois et travaillons avec les meilleurs outils et matériaux de qualité. Que vous ayez besoin d'un entretien régulier ou de rénovations étendues, nous sommes là pour vous fournir un service de premier ordre.",
+    "שמרו על הנכס שלכם מתוחזק כראוי והימנעו מהפתעות לא נעימות. צרו קשר עוד היום לקבלת הצעת מחיר מותאמת אישית.": "Gardez votre propriété bien entretenue et évitez les surprises désagréables. Contactez-nous aujourd'hui pour un devis personnalisé.",
+
+
+    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$": "Contact-us",
+    "צרו קשר": "Contactez-nous",
+    "שם": "Nom",
+    "מייל": "Email",
+    "נייד": "Téléphone",
+    "שלח": "Envoyer",
+    "המידע התקבל אצלנו, בקרוב נהיה בקשר!": "Vos informations ont été reçues, nous vous contacterons bientôt !"
 }
