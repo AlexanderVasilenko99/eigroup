@@ -21,7 +21,7 @@ const ContactForm: React.FC = () => {
       <h2>{t('צרו קשר')}</h2>
       <div className="inputs-container">
         <div className='input-container'>
-          <label htmlFor="name">שם</label>
+          <label htmlFor="name">{t('שם')}</label>
           <input
             required
             type="text"
@@ -33,7 +33,7 @@ const ContactForm: React.FC = () => {
           />
         </div>
         <div className='input-container'>
-          <label htmlFor="name">מייל</label>
+          <label htmlFor="name">{t('מייל')}</label>
           <input
             required
             type="email"
@@ -45,7 +45,7 @@ const ContactForm: React.FC = () => {
           />
         </div>
         <div className='input-container'>
-          <label htmlFor="name">נייד</label>
+          <label htmlFor="name">{t('נייד')}</label>
           <input
             required
             type="tel"
