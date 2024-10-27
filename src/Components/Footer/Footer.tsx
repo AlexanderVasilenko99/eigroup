@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
   const { t } = useTranslation();
   return (
     <span className='Footer'>
-      כל הזכויות שמורות E.I GROUP©️ | האתר פותח ומתוחזק על ידי&nbsp;
-      <a href="https://alexandervasilenko.com" target='_blank'>אלכסנדר וסילנקו</a>
+      {t('כל הזכויות שמורות E.I GROUP©️ | האתר פותח ומתוחזק על ידי')}&nbsp;
+      <a href="https://alexandervasilenko.com" target='_blank'>{t('אלכסנדר וסילנקו')}</a>
       &nbsp;
-      <a href="https://alexandervasilenko.com" target='_blank'>וישראל סופר</a>
+      <a href="https://alexandervasilenko.com" target='_blank'>{t('וישראל סופר')}</a>
     </span>
   );
 };

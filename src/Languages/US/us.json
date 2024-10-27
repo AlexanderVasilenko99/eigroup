@@ -4,7 +4,7 @@
     "יתרונות": "Why Choose Us",
     "מי אנחנו": "Who Are We",
     "צור קשר": "Contact Us",
-    "------------------------------------------------------": "MAIN-CONTENT",
+    "*******************************************************": "MAIN-CONTENT",
 
 
     
@@ -16,15 +16,15 @@
     "אנו מציעים שירותי גבייה עבור תחומים כמו תחזוקת מעליות, חשמל, וביטוחי צד ג' הנדרשים. בנוסף, אנו מספקים ליווי משפטי לטיפול בסרבני תשלום בעזרת עורכי דין מנוסים. באמצעות ניהול מקצועי ומסודר של תשלומים שוטפים, שליחת תזכורות ומכתבי התראה, תוכלו לחסוך זמן יקר בטיפול בנושאים אלו ולהקטין את הסיכון לסכסוכים עם סרבני תשלום.": "We offer collection services for areas such as elevator maintenance, electricity, and third-party insurance as required. Additionally, we provide legal support for handling non-paying tenants with experienced attorneys. By professionally managing regular payments, sending reminders, and issuing warning letters, you can save valuable time and reduce the risk of conflicts with non-paying tenants.",
     "מה כוללת תחזוקת דירות?": "What Does Property Maintenance Include?",
     "תחזוקת דירות כוללת מגוון רחב של שירותים, שכל אחד מהם תורם לשמירה על בטיחות, נוחות ואסתטיקה בדירה. אלו כוללים:": "Property maintenance includes a wide range of services, each contributing to safety, comfort, and aesthetics in the property. These include:",
-    "תחזוקה שוטפת": "Routine Maintenance",
+    "תחזוקה שוטפת:": "Routine Maintenance:",
     "תחזוקה שוטפת כוללת פעולות קטנות אך חשובות כמו בדיקת מערכות החשמל, תיקוני צבע וטיפול ברטיבות. תחזוקה כזו תסייע במניעת נזקים גדולים יותר בעתיד.": "Routine maintenance includes small but essential actions like checking electrical systems, paint repairs, and moisture control. Such maintenance can help prevent larger damages in the future.",
-    "תיקוני אינסטלציה": "Plumbing Repairs",
+    "תיקוני אינסטלציה:": "Plumbing Repairs:",
     "בעיות אינסטלציה כמו נזילות, סתימות והצפות הן מהבעיות הנפוצות ביותר בדירות. תחזוקה נכונה תסייע לזהות בעיות אלו בזמן ולפתור אותן לפני שהן מחמירות.": "Common plumbing issues like leaks, clogs, and floods are among the most frequent problems in properties. Proper maintenance helps identify these issues early and solve them before they worsen.",
-    "שיפוצי פנים": "Interior Renovations",
+    "שיפוצי פנים:": "Interior Renovations:",
     "שיפוצים חלקיים או מלאים של הדירה יכולים לשדרג משמעותית את איכות החיים בה ולהעלות את ערכה. שיפוצים כוללים החלפת ריצוף, שדרוג המטבח, שיפוץ חדרי האמבטיה ועוד.": "Partial or full renovations of the property can significantly improve living quality and increase its value. Renovations include replacing flooring, upgrading kitchens, remodeling bathrooms, and more.",
-    "עבודות חשמל": "Electrical Work",
+    "עבודות חשמל:": "Electrical Work:",
     "מערכת החשמל היא אחת המערכות הקריטיות בכל דירה. תחזוקה שוטפת כוללת בדיקות תקופתיות, טיפול בתקלות והחלפת מערכות ישנות במערכות מודרניות ובטוחות יותר.": "The electrical system is one of the most critical systems in any property. Routine maintenance includes periodic checks, fixing issues, and replacing old systems with modern, safer alternatives.",
-    "תחזוקת גינה": "Garden Maintenance",
+    "תחזוקת גינה:": "Garden Maintenance:",
     "אם הדירה כוללת מרפסת או גינה, חשוב לשמור עליה מטופחת. תחזוקת גינה כוללת גיזום, השקיה, טיפול במדשאות והדברה בעת הצורך.": "If the property includes a balcony or garden, it’s essential to keep it well-maintained. Garden maintenance includes pruning, watering, lawn care, and pest control when necessary.",
     "שירותים שאנו מציעים": "Services We Offer",
     "תיקוני אינסטלציה ואיתור נזילות": "Plumbing Repairs and Leak Detection",
@@ -38,11 +38,16 @@
     "אנו מציעים ניסיון רב שנים בתחום תחזוקת הדירות, שירות לקוחות אדיב, ועבודה עם כלים וחומרים באיכות הגבוהה ביותר. בין אם אתם זקוקים לתחזוקה שוטפת או לשיפוצים נרחבים, אנחנו כאן כדי להעניק לכם שירות ברמה הגבוהה ביותר.": "We offer years of experience in property maintenance, courteous customer service, and work with the highest quality tools and materials. Whether you need routine maintenance or extensive renovations, we are here to provide you with top-notch service.",
     "שמרו על הנכס שלכם מתוחזק כראוי והימנעו מהפתעות לא נעימות. צרו קשר עוד היום לקבלת הצעת מחיר מותאמת אישית.": "Keep your property well-maintained and avoid unpleasant surprises. Contact us today for a personalized quote.",
 
-    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$": "Contact-us",
+    "********************************************************": "Contact-us",
     "צרו קשר": "Contact Us",
     "שם": "Name",
     "מייל": "Email",
     "נייד": "Phone",
     "שלח": "Send",
-    "המידע התקבל אצלנו, בקרוב נהיה בקשר!": "Your information has been received, we will be in touch soon!"
+    "המידע התקבל אצלנו, בקרוב נהיה בקשר!": "Your information has been received, we will be in touch soon!",
+    
+    "*********************************************************": "FOOTER",
+    "כל הזכויות שמורות E.I GROUP©️ | האתר פותח ומתוחזק על ידי":"All rights reserved E.I GROUP©️ | The site is developed and maintained by",
+    "אלכסנדר וסילנקו": "Alexander Vasilenko",
+    "וישראל סופר": "and Israel Sofer"
 }

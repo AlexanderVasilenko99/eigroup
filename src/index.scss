@@ -31,6 +31,14 @@ body * {
   color: #2C3E50;
 }
 
+html[lang=FR],
+html[lang=RU],
+html[lang=US] {
+  body .main-content *{
+    direction: ltr;
+  }
+}
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;

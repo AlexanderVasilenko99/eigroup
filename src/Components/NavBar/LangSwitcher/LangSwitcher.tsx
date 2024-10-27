@@ -25,6 +25,10 @@ const LangSwitcher: React.FC = () => {
           onChange={(e) => {
 
             let lng = e.target.value;
+            const html = document.getElementsByTagName('html')[0] as HTMLElement;
+            if (html) {
+              html.setAttribute('lang', lng);
+            }
 
             setLang(lng);
             i18n.changeLanguage(lng);
