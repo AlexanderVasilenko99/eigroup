@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       {t('כל הזכויות שמורות E.I GROUP©️ | האתר פותח ומתוחזק על ידי')}&nbsp;
       <a href="https://alexandervasilenko.com" target='_blank'>{t('אלכסנדר וסילנקו')}</a>
       &nbsp;
-      <a href="https://alexandervasilenko.com" target='_blank'>{t('וישראל סופר')}</a>
+      <a href="https://www.linkedin.com/in/israel-sofer-514a242a1/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank'>{t('וישראל סופר')}</a>
     </span>
   );
 };

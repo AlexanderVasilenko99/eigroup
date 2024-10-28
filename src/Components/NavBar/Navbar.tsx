@@ -5,10 +5,13 @@ import logo from "../../Assets/images/logo-blue-background-white-text.png";
 import LangSwitcher from './LangSwitcher/LangSwitcher';
 import './Navbar.scss';
 
-
 const Navbar: React.FC = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+
+  const closeNavbar = {
+    callbackFunc: () => setIsOpen(false)
+  }
 
   return (
     <nav className="Navbar">
@@ -38,7 +41,7 @@ const Navbar: React.FC = () => {
                   e.preventDefault();
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
                 }}>{t('צור קשר')}</a>
-              <LangSwitcher />
+              <LangSwitcher {...closeNavbar} />
             </li>
           </ul>
         </li>

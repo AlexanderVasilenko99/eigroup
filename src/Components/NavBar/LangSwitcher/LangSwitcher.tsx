@@ -1,12 +1,14 @@
-import React, { useRef, useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
+import React, { useState } from 'react';
 import './LangSwitcher.scss';
-import logo from "../../Assets/images/logo-page.jpeg"
-import hamburgerMenu from "../../Assets/images/hamburger-menu.png"
 
 import { useTranslation } from 'react-i18next';
 
-const LangSwitcher: React.FC = () => {
+
+interface LangSwitcherProps {
+  callbackFunc: () => void;
+}
+
+const LangSwitcher: React.FC<LangSwitcherProps> = ({ callbackFunc }) => {
 
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [lang, setLang] = useState<string>("IL");
@@ -33,9 +35,9 @@ const LangSwitcher: React.FC = () => {
             setLang(lng);
             i18n.changeLanguage(lng);
             handleClick();
+            callbackFunc();
           }}>
-          {/* <option disabled>Language</option> */}
-          {/* disabled={lang==="US"} */}
+
           <option value="US" >English</option>
           <option value="IL">עברית</option>
           <option value="FR">Français</option>
@@ -46,10 +48,3 @@ const LangSwitcher: React.FC = () => {
 };
 
 export default LangSwitcher;
-
-{/* <img src={isLanguageEnglish ? 'https://flagsapi.com/GB/shiny/64.png' : 'https://flagsapi.com/IL/shiny/64.png'} className="LanguageSwitcher"
-          onClick={() => {
-            i18n.changeLanguage(isLanguageEnglish ? 'he' : 'en');
-            setIsLanguageEnglish(!isLanguageEnglish);
-          }} >
-        </ img> */}
