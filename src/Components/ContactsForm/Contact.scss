@@ -61,6 +61,7 @@
         background-color: var(--background-color);
         transition: 300ms;
         box-shadow: var(--bold-box-shadow);
+        border-radius: 8px;
 
         &:hover {
             cursor: pointer;
