@@ -24,29 +24,12 @@ i18n
   .use(languageDetector)
   .init({
     lng: 'IL',
-    debug: true,
+    debug: false,
     fallbackLng: 'IL',
     interpolation: {
       escapeValue: false
     },
     resources: {
-
-      // US: {
-      //   translation: {
-      //     טסט: "tets"
-      //   }
-      // },
-      // FR: {
-      //   translation: {
-      //     טסט: "la testeaux"
-      //   }
-      // },
-      // RU: {
-      //   translation: {
-      //     טסט: "тест сука"
-      //   }
-      // }
-
       US: { translation: translationUS },
       FR: { translation: translationFR },
       RU: { translation: translationRU },
