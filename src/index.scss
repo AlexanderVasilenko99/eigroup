@@ -34,7 +34,7 @@ body * {
 html[lang=FR],
 html[lang=RU],
 html[lang=US] {
-  body .main-content *{
+  body .main-content * {
     direction: ltr;
   }
 }
@@ -45,9 +45,7 @@ body {
   padding: 0;
 }
 
-#root {
-  // margin-top: 65px;
-}
+
 
 .main-content {
   margin: 0% 15%;
