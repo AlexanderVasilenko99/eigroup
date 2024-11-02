@@ -1,43 +1,20 @@
 .InfoSection {
   display: flex;
   flex-direction: column;
+  row-gap: 1.5em;
 
   article {
-    margin-bottom: 1.5em;
-    &:nth-of-type(1){
+    &:nth-of-type(1) {
       margin-top: 1.5em;
     }
+
+    &:nth-last-of-type(1) {
+      margin-bottom: 1.5em;
+    }
+
     ul {
       strong {
         text-decoration: underline;
-      }
-      &.includes{
-        padding: 10px 20px 0 20px;
-        list-style-type: disc;
-      }
-      &.offers {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 1em;
-        flex-wrap: wrap;
-        padding: 0px 10%;
-
-        li {
-          width: 250px;
-          min-height: fit-content;
-          height: 175px;
-          display: flex;
-          flex-direction: column;
-          justify-content: top;
-          align-items: center;
-          font-size: .62em;
-
-          img {
-            width: 100px;
-            margin-bottom: 1em;
-          }
-        }
       }
     }
   }
