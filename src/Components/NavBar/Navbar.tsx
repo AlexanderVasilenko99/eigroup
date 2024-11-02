@@ -1,6 +1,6 @@
+import { Squash as Hamburger } from 'hamburger-react';
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import hamburgerMenu from "../../Assets/images/hamburger-menu.png";
 import logo from "../../Assets/images/logo-blue-background-white-text.png";
 import LangSwitcher from './LangSwitcher/LangSwitcher';
 import './Navbar.scss';
@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
         <li className="trigger" onClick={() => setIsOpen(!isOpen)}>
           <a>
-            <img src={hamburgerMenu} alt="hamburgerMenu" />
+            <Hamburger toggled={isOpen} />
           </a>
         </li>
         <li className="logo">
