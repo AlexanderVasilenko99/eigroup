@@ -1,0 +1,91 @@
+.TitleSection {
+    position: relative;
+    height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(../../../Assets/images/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+
+        animation: blurBackground 1.5s 0s ease-out forwards;
+    }
+
+    .EIGroup {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 1em 2em;
+        border-radius: 1em 2em;
+        box-shadow: var(--bold-box-shadow);
+        opacity: 0;
+        animation: appearBounce 1.5s .15s ease-out forwards, slowBreathing 4s ease-in-out 2s infinite;
+
+        span {
+            &:nth-of-type(1) {
+                font-size: 3em;
+                color: var(--secondary-color);
+            }
+
+            &:nth-of-type(2) {
+                font-size: 1em;
+                color: var(--secondary-color);
+            }
+        }
+    }
+}
+
+@keyframes blurBackground {
+    0% {}
+
+    60%,
+    100% {
+        opacity: .6;
+    }
+}
+
+@keyframes appearBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slowBreathing {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+}

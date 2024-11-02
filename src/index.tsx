@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AboutSection from '../src/Components/AboutSection/AboutSection';
+import InfoSection from './Components/InfoSection/InfoSection';
 import ContactForm from './Components/ContactsForm/Contact';
 import Navbar from './Components/NavBar/Navbar';
 import './index.scss';
@@ -40,7 +40,7 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <div className="main-content">
-      <AboutSection />
+      <InfoSection />
     </div>
     <ContactForm />
     <footer>
