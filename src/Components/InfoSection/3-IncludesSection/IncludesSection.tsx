@@ -1,12 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import './IncludesSection.scss';
-
+import img1 from '../../../Assets/images/square1.png';
+import img2 from '../../../Assets/images/square2.png';
+import img3 from '../../../Assets/images/square3.png';
 
 function IncludesSection(): JSX.Element {
   const { t } = useTranslation();
 
   return (
-    <article className='IncludesSection'>
+    <>
+      <article className='IncludesSection'>
         <h2>{t(`מה כוללת תחזוקת דירות?`)}</h2>
         <p>{t(`תחזוקת דירות כוללת מגוון רחב של שירותים, שכל אחד מהם תורם לשמירה על בטיחות, נוחות ואסתטיקה בדירה. אלו כוללים:`)}</p>
         <ul className='includes'>
@@ -22,6 +25,18 @@ function IncludesSection(): JSX.Element {
             <strong>{t(`תחזוקת גינה:`)}</strong> {t(`אם הדירה כוללת מרפסת או גינה, חשוב לשמור עליה מטופחת. תחזוקת גינה כוללת גיזום, השקיה, טיפול במדשאות והדברה בעת הצורך.`)}</li>
         </ul>
       </article>
+      <div className="images">
+        <div className="image-container">
+          <img src={img1} alt="img1" />
+        </div>
+        <div className="image-container">
+          <img src={img2} alt="img2" />
+        </div>
+        <div className="image-container">
+          <img src={img3} alt="img3" />
+        </div>
+      </div>
+    </>
   );
 };
 export default IncludesSection;

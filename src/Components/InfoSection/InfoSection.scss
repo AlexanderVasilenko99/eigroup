@@ -3,6 +3,10 @@
   flex-direction: column;
   row-gap: 1.5em;
 
+  >div:not(.TitleSection) {
+    margin: 0% 15%;
+  }
+
   article {
     margin: 0% 15%;
 
