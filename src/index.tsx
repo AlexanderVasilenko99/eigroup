@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AboutSection from '../src/Components/AboutSection/AboutSection';
+import AboutSection from './Components/InfoSection/InfoSection';
 import ContactForm from './Components/ContactsForm/Contact';
 import Navbar from './Components/NavBar/Navbar';
 import './index.scss';
