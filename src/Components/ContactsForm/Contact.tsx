@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 const ContactForm: React.FC = () => {
 
-  const [state, handleSubmit] = useForm("xxxxxx"); //xkgnnbgw
+  const [state, handleSubmit] = useForm("xkgnnbgw"); 
   const { t } = useTranslation();
 
   if (state.succeeded) {
@@ -29,7 +29,6 @@ const ContactForm: React.FC = () => {
             id="name"
             minLength={2}
             maxLength={15}
-          // placeholder="שם"
           />
         </div>
         <div className='input-container'>
@@ -41,7 +40,6 @@ const ContactForm: React.FC = () => {
             id="email"
             minLength={2}
             maxLength={30}
-          // placeholder="מייל"
           />
         </div>
         <div className='input-container'>
@@ -53,7 +51,6 @@ const ContactForm: React.FC = () => {
             id="tel"
             minLength={9}
             maxLength={15}
-          // placeholder="נייד"
           />
         </div>
       </div>

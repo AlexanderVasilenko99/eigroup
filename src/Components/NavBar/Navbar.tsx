@@ -30,14 +30,21 @@ const Navbar: React.FC = () => {
             <li>
               <a onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('advantages').scrollIntoView({ behavior: "smooth" })
-              }}>{t('יתרונות')}</a>
+                document.getElementById('who-are-we').scrollIntoView({ behavior: "smooth" })
+              }}>{t('אודותינו')}</a>
               <a onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('who-are-we').scrollIntoView({ behavior: "smooth" })
-              }}>{t('מי אנחנו')}</a>
-              <a
-                onClick={(e) => {
+                document.getElementById('whats-included').scrollIntoView({ behavior: "smooth" })
+              }}>{t('מה כוללת תחזוקת דירות?')}</a>
+              <a onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('services-we-offer').scrollIntoView({ behavior: "smooth" })
+              }}>{t('שירותים שאנו מציעים')}</a>
+              <a onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('why-choose-us').scrollIntoView({ behavior: "smooth" })
+              }}>{t('למה לבחור בנו?')}</a>
+              <a onClick={(e) => {
                   e.preventDefault();
                   document.getElementById('contact-us').scrollIntoView({ behavior: "smooth" })
                 }}>{t('צור קשר')}</a>
