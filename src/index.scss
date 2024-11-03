@@ -19,7 +19,6 @@
 
 html {
   background-image: url(../src/Assets/images/parallaxBG.png);
-  // background-size: contain;
 
   background-attachment: fixed;
   background-position: top;
@@ -35,8 +34,6 @@ body * {
   margin: 0;
   padding: 0;
   direction: rtl;
-
-  // background-color: var(--background-color);
   font-size: 1em;
   color: #2C3E50;
 }
@@ -44,7 +41,9 @@ body * {
 html[lang=FR],
 html[lang=RU],
 html[lang=US] {
-  body .main-content * {
+
+  body .main-content *,
+  body .Navbar .outer-ul li a {
     direction: ltr;
   }
 }
@@ -64,13 +63,10 @@ body {
 
 
 .main-content {
-  // margin: 0% 15%;
-
   header {
     background-color: transparent;
     margin: 1.5em 0 1em;
   }
-
 }
 
 
