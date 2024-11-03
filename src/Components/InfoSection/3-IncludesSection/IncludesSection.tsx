@@ -9,7 +9,7 @@ function IncludesSection(): JSX.Element {
 
   return (
     <>
-      <article className='IncludesSection'>
+      <article className='IncludesSection' id='whats-included'>
         <h2>{t(`מה כוללת תחזוקת דירות?`)}</h2>
         <p>{t(`תחזוקת דירות כוללת מגוון רחב של שירותים, שכל אחד מהם תורם לשמירה על בטיחות, נוחות ואסתטיקה בדירה. אלו כוללים:`)}</p>
         <ul className='includes'>

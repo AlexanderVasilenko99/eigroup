@@ -7,7 +7,7 @@ function ServicesSection(): JSX.Element {
   const { t } = useTranslation();
 
   return (
-    <article className='ServicesSection'>
+    <article className='ServicesSection' id='services-we-offer'>
       <h2>{t(`שירותים שאנו מציעים`)}</h2>
       <ul className='offers'>
         <li>
