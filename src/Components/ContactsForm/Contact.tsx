@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 const ContactForm: React.FC = () => {
 
-  const [state, handleSubmit] = useForm("xkgnnbgw"); 
+  const [state, handleSubmit] = useForm("xkgnnbgw");
   const { t } = useTranslation();
 
   if (state.succeeded) {
