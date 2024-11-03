@@ -9,7 +9,7 @@ function TitleSection(): JSX.Element {
       <div className='TitleSection'>
         <div className='EIGroup'>
           <span>E.I Group</span>
-          <span>{t('אחזקת דירות מקצועית')}</span>
+          <span>{t('אחזקת דירות ברמה מעל כולם')}</span>
         </div>
       </div>
     </>
