@@ -10,7 +10,6 @@ function TitleSection(): JSX.Element {
         <div className='EIGroup'>
           <span className='heading'>E.I Group</span>
           <span>{t('אחזקת דירות ברמה מעל כולם')}</span>
-          <span><a href='tel:0509043131' className='phone'>050-904-3131</a></span>
         </div>
       </div>
     </>
